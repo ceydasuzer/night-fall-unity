@@ -7,6 +7,7 @@ This project's purpose was to make a game that is similar to Sumo.io with Unity.
 - [Overview](#overview)
   - [The challenge](#the-challenge)
 - [My process](#my-process)
+   - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I've Learned](#what-i've-learned)
 
@@ -21,6 +22,10 @@ This project's purpose was to make a game that is similar to Sumo.io with Unity.
 
 ## My process
 
+### Screenshot
+![alt text](https://github.com/ceydasuzer/night-fall-unity/blob/main/screen-shots/3.jpeg)
+![alt text](https://github.com/ceydasuzer/night-fall-unity/blob/main/screen-shots/6.jpeg)
+![alt text](https://github.com/ceydasuzer/night-fall-unity/blob/main/screen-shots/1.jpeg)
 ### Built with
 
 - Unity
