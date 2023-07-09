@@ -25,18 +25,6 @@ public class playerController : MonoBehaviour
     //declaring a layer mask that will be set on unity as ground
     public LayerMask ground;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void FixedUpdate()
     {
         //player movement with rigidbody and joystick

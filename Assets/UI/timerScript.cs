@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class timerScript : MonoBehaviour
 {
+    //defining timeValue variable and setting it to 60
     public float timeValue = 60;
     public Text timerText;
 
@@ -13,24 +14,19 @@ public class timerScript : MonoBehaviour
     public gameManager gameManager;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
+        
         if(timeValue > 0)
         {
-            timeValue -= Time.deltaTime;
+            timeValue -= Time.deltaTime; //to stabilize the time for every device
         }
         else
         {
             timeValue = 0;
 
-            gameManager.gameOver();
+            gameManager.gameOver(); // game over when time hits 0
         }
 
 
@@ -44,9 +40,11 @@ public class timerScript : MonoBehaviour
             timeToDisplay = 0;
         }
 
+        //using math to calculate minutes and seconds
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
+        //formatting the text string for displaying time
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

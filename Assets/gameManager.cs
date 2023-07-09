@@ -20,13 +20,15 @@ public class gameManager : MonoBehaviour
         gameOverMenu.SetActive(false);
     }
 
+    //event for pause game button
     public void pauseGame()
     {
         pausePanel.SetActive(true);
         joystick.SetActive(false);
         timer.SetActive(false);
     }
-
+    
+    //event for resume game button
     public void resumeGame()
     {
         pausePanel.SetActive(false);
@@ -34,11 +36,13 @@ public class gameManager : MonoBehaviour
         timer.SetActive(true);
     }
 
+    //event for return to main menu button  
     public void returnMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
+    //function for game over 
     public void gameOver()
     {
         gameOverMenu.SetActive(true);

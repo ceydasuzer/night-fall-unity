@@ -6,18 +6,8 @@ public class collectables : MonoBehaviour
 {
     float speed = 10f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //collectable player'ýn push gücünü arttýracak
-    }
-
+    // rotating the collectable items by y axis
     private void FixedUpdate()
     {
         transform.Rotate(Vector3.up * speed * Time.deltaTime);
