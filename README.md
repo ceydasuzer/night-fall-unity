@@ -19,6 +19,7 @@ This project's purpose was to make a game that is similar to Sumo.io with Unity.
 - Clean code
 - Organized Assets and Hierarchy
 - Character and UI animations
+- Must be completed in 2 days
 
 ## My process
 
