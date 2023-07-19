@@ -35,5 +35,5 @@ This project's purpose was to make a game that is similar to Sumo.io with Unity.
 ### What I've learned
 
 - Movement with joystick
-  Character movement with a joystick was a new area for me while building this game.
+    Character movement with a joystick was a new area for me while building this game.
 - Testing UI for different devices with Unity's simulator. 
